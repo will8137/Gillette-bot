@@ -23,6 +23,6 @@ This is where the song file is referenced `voice.play(discord.FFmpegPCMAudio('yo
 
 Just whack your mp3 file in the same directory as the python script and you are good to go
 
-Enjoy & Have Fun!
+*Enjoy & Have Fun!*
 
-Written with love by Will lytton
+**Written with love by Will lytton**
