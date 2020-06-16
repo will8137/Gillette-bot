@@ -17,6 +17,12 @@
 
 `client.run('YOURTOKENHERE')`
 
-Enjoy!
+## **How do I get my song to play?:**
 
-Written by Will lytton
+This is where the song file is referenced `voice.play(discord.FFmpegPCMAudio('yourfilenamehere.mp3'))`
+
+Just whack your mp3 file in the same directory as the python script and you are good to go
+
+Enjoy & Have Fun!
+
+Written with love by Will lytton
