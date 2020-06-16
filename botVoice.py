@@ -72,4 +72,4 @@ async def resume(ctx):
     voice.resume()
     await ctx.send("I have been resumed :D")
 
-client.run('NzIyMjQ3NjExODcyMDUxMjUx.Xug0jA.aDnJb2lQjyHM6YYkbc6bWqrwR7U')
+client.run('Token')
