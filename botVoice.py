@@ -2,11 +2,18 @@ import discord
 import asyncio
 import youtube_dl
 import shutil
-import os 
+import os
+import json
 from discord.utils import get
 from discord.ext import commands
 
+# Open key file and set keyData var
+with open('key.json') as json_data:
+    keyData = json.load(json_data,)
+
+# Config Variables
 client = commands.Bot(command_prefix = '.')
+clientKey = keyData['key']
 
 @client.event
 async def on_ready():
@@ -72,4 +79,4 @@ async def resume(ctx):
     voice.resume()
     await ctx.send("I have been resumed :D")
 
-client.run('Token')
+client.run(clientKey)
