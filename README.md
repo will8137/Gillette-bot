@@ -25,4 +25,4 @@ Just whack your mp3 file in the same directory as the python script and you are 
 
 *Enjoy & Have Fun!*
 
-**Written with love by Will lytton**
+**Written with love by Will8137**
